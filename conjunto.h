@@ -8,7 +8,7 @@ typedef int DATO;
 typedef struct Conjunto{
     DATO datos[TAM];
     short cant;
-} CONJUNTO;
+}CONJUNTO;
 
 CONJUNTO conjunto_vacio();
 CONJUNTO agregar(CONJUNTO, DATO);
@@ -18,5 +18,4 @@ bool es_vacio(CONJUNTO);
 int cardinal(CONJUNTO);
 CONJUNTO _union(CONJUNTO, CONJUNTO);
 void print_conjunto(CONJUNTO);
-
 #endif
